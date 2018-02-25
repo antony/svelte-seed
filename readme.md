@@ -2,6 +2,8 @@
 
 A ready to go, live-reloading seed project for svelte.
 
+Uses parceljs for bundling.
+
 ## How to run
 
 `npm install && npm run watch`
@@ -16,5 +18,4 @@ Run:
 
 `npm run build`
 
-and your built asset will exist in `/dist/bundle-<version>.min.js`
-a packaged version will exist in `/dist/package.zip`
+and your built asset will exist in `/dist/<hash>.js`.
