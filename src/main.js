@@ -1,5 +1,6 @@
 import App from './components/app/component.svelte'
 
-window.COMPONENTS = {
-  App
-}
+const app = new App({
+  target: document.body,
+  data: { name: 'there' }
+})

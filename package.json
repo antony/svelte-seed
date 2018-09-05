@@ -8,8 +8,8 @@
   "scripts": {
     "clean": "rm ./dist/*",
     "build": "NODE_ENV=production parcel build index.html -d dist",
-    "watch": "NODE_ENV=development parcel watch index.html --no-cache",
-    "start": "NODE_ENV=development parcel index.html --no-cache",
+    "watch:only": "NODE_ENV=development parcel watch index.html --no-cache",
+    "dev": "NODE_ENV=development parcel index.html --no-cache",
     "zip": "npm run build && bestzip ./dist/package.zip ./dist/*",
     "lint": "eslint .",
     "test": "NODE_ENV=test mocha --compilers js:babel-core/register './!(node_modules)/**/**.+(spec).js'"
@@ -31,5 +31,9 @@
     "parcel-plugin-svelte": "^1.2.3",
     "svelte": "^2.13.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "now": {
+    "static": true,
+    "public": "dist"
+  }
 }
