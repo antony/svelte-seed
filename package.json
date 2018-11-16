@@ -1,7 +1,7 @@
 {
   "name": "svelte-seed",
   "version": "1.0.0",
-  "description": "A seed for starting svelte projects",
+  "description": "A seed for starting svelte project, including HMR",
   "main": "index.js",
   "author": "Antony Jones",
   "license": "MIT",
@@ -14,22 +14,27 @@
     "lint": "eslint .",
     "test": "NODE_ENV=test mocha --compilers js:babel-core/register './!(node_modules)/**/**.+(spec).js'"
   },
+  "svelte": {
+    "compilerOptions": {
+      "css": true
+    }
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "bestzip": "^2.0.0",
-    "code": "^5.2.0",
-    "eslint": "^5.4.0",
+    "code": "^5.2.3",
+    "eslint": "^5.9.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "mocha": "^5.2.0",
-    "parcel-bundler": "^1.9.7",
+    "parcel-bundler": "^1.10.3",
     "parcel-plugin-svelte": "^1.2.3",
-    "svelte": "^2.13.2"
+    "svelte": "^2.15.3"
   },
   "dependencies": {},
   "now": {
