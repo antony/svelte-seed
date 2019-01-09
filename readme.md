@@ -8,6 +8,11 @@ Just edit the files in `src/components` to get started.
 
 ## Preparation
 
+Make yourself a fresh, gitless copy!
+```bash
+npx degit antony/svelte-seed
+```
+
 ```bash
 npm install
 ```
@@ -20,7 +25,7 @@ npm run dev
 
 ## Developing
 
-Edit the `component.html` file and run `npm run watch`
+Edit the `component.html`
 
 ## Building for production
 
