@@ -33,7 +33,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "mocha": "^5.2.0",
     "parcel-bundler": "^1.10.3",
-    "parcel-plugin-svelte": "^1.2.3",
+    "parcel-plugin-svelte": "^2.0.0",
     "svelte": "^2.15.3"
   },
   "dependencies": {},
