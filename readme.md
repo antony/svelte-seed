@@ -1,6 +1,6 @@
 # Svelte seed
 
-A ready to go, live-reloading seed project for svelte.
+A ready to go, live-reloading seed project for svelte v3.
 
 Uses parceljs for bundling.
 
